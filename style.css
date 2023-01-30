@@ -1,40 +1,150 @@
-.titulo-principal{
-    padding-left: 30px;
+.encabezado {
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
-#banner{
-    width: 100%;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
-.principal{
-    background: #cccccc;
-    padding: 20px;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
-.titulo-centralizado{
-    text-align:center;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
-p{
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-
-em strong{
-color: red;
+.productos li:hover {
+    border-color: #c78c19;
 }
-#mision{
-    font-size: 20px;
+.productos li:active {
+    border-color:#088c19;
 }
-.diferenciales{
-    background: white;
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2{
+    font-size: 33px;
+}
+.producto-descripcion{
+font-size: 18px;
+}
+.producto-precio{
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+}
+footer {
+    margin: 20px 0 ;
+    text-align: center;
+    background:url(imagenes/bg.jpg);
     padding: 30px;
 }
-
-.items{
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+main{
+    width: 940px;
+    margin: 0 0 auto;
+}
+form{
+    margin: 40px 0 0 200px;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 70%;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+table{
+    margin: 40px 240px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+/*CSS PARA NUESTRO HOME*/
+.banner{
+    width: 100%;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
     font-style: italic;
 }
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.utensilios{
+    width: 120px;
 }
 .imagenDiferenciales{
-    width: 50%;
+    width: 60%;
 }
